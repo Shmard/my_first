@@ -1,7 +1,8 @@
 <?php
 define("APPLICATION_PATH",  dirname(__FILE__));
-
+#comment_commit 1
 $app  = new Yaf_Application(APPLICATION_PATH . "/conf/application.ini");
 $app->bootstrap() //Выполнение методов, опрделенных в Bootstrap.php
- ->run();
+# no bootstrap! I don`t like rap =)
 ?>
+Send any sticker in Telegram =)
